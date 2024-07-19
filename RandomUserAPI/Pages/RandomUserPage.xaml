@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RandomUserAPI.Pages.RandomUserPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="Welcome to Xamarin.Forms!" />
+            <Label x:Name= "UserGender" Text="Loading..." />
+            <Label x:Name="UserEmail" Text="Loading..." />
+            <Label x:Name="NumberOfResults" Text="Loading..." />
+            <Label x:Name="UserName" Text="Loading..." />
+            <Label x:Name="UsernameTag" Text="Loading..." />
+            <Label x:Name="UserAge" Text="Loading..." />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
